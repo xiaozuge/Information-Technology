@@ -1,0 +1,180 @@
+.w{
+    width: 990px;
+    margin:0 auto;
+}
+.q-link{
+    float: right;
+    position: relative;
+    top:52px;
+}
+.q-link i{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background-image: url("../images/q-icon.png");
+    vertical-align: middle;
+}
+#logo{
+    width: 300px;
+    height: 60px;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+}
+#logo i{
+    display: block;
+    width: 110px;
+    height:40px;
+    background-image: url("../images/l-icon.png");
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.content{
+    clear: both;
+    margin: 0 auto;
+    height: 515px;
+    margin-bottom: 20px;
+    background-color: rgb(230,247,255);
+}
+.content .login-banner{
+    background-image: url("../images/a.jpg");
+    width: 100%;
+    height: 477px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.tip-wrapper{
+    width: 100%;
+    background-color: rgb(255,248,240);
+    padding:10px 0;
+}
+.icon-info{width: 16px;
+    height:16px;display: inline-block;margin-right: 5px;
+    background-image: url("../images/icon-tips.png");
+    vertical-align: middle;
+}
+.content-wrapper{text-align: center;
+    color: rgb(153,153,153);}
+.content-wrapper a:hover{color:black;}
+.login-box{
+    background-color: #f859b6;
+}
+.footer-box{
+    text-align: center;
+}
+.links a{
+    margin: 0 10px;
+}
+.qrcode-main{
+    width: 316px;
+    height: 168px;
+    padding: 20px 0;
+    position: relative;
+    border:1px solid rgb(244,244,244);
+    overflow: hidden}
+.qrcode-main .qrcode-img{
+    position: absolute;
+    padding: 8px;
+    left: 0;
+    border:1px solid rgb(244,244,244);
+}
+.qrcode-main .qrcode-help{
+    position: absolute;
+    background-image: url("../images/phone-orange.png");
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 168px;
+    right: -7px;
+    display: none;
+}
+.login-box{
+    width: 316px;
+    height: 168px;
+}
+.login-box .login-item{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border:1px solid rgb(187,187,187);
+    width: 100%;
+    height:40px;
+
+}
+input:-webkit-autofill{
+    background-color: #fff;
+}
+.login-form{
+    width: 346px;
+    float: right;
+    position: relative;
+    top:10px;
+}
+.login-box .login-item input{
+    border:none;
+    height: 36px;
+    width: 275px;
+    outline: none;
+    text-indent: 1.2em;
+}
+.login-box .login-item label{
+    display: block;
+    float: left;
+    width: 38px;
+    height: 38px;
+    background-image: url("../images/pwd-icons-new.png");
+    background-repeat: no-repeat;
+    border-right:1px solid rgb(187,187,187);
+}
+.login-box .login-item:first-child label{
+    background-position: 0 0;
+}
+.login-box .login-item:last-child label{
+    background-position: -48px 0;
+}
+.deltext:hover{
+    cursor: pointer;
+    background-position: -50px -143px;
+}
+.deltext{
+    width: 15px;
+    height:15px;
+    background-image: url("../images/pwd-icons-new.png");
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    bottom:50%;
+    margin-top: -7.5px;
+    margin-right: 5px;
+    background-position: -25px -143px;
+    display: none;
+}
+.title{
+    width: 316px;
+    height:50px;
+    position: relative;
+}
+.title span{
+    display:block;
+    width: 158px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+.title span:hover{
+    color: rgb(228, 57, 60);
+    font-weight: bold;
+    cursor: pointer;
+}
+.title .line{
+    position: absolute;
+    border-right: 1px solid rgb(187,187,187);
+    height:20px;
+    left:50%;
+    top:50%;
+    margin-top: -10px;
+}
+.current{
+    color:rgb(228, 57, 60);
+    font-weight:bold;
+}
